@@ -108,22 +108,14 @@ bot.onText(/\/start/, (msg) => {
 
 bot.sendMessage(
   chatId,
-  `Tu <b>BONO DE BIENVENIDA</b> es:
-<b>WELCOME</b>
+  `🎁 Bono exclusivo para vos 🎁
+Te regalamos un 30% en tu próxima carga. 
+Solo tenes que hablarnos a tg 👉https://t.me/m/eCMJ3EBWZjNh o realizar tu carga directa 👉https://winplay.space/home 
 
-🔄 <b>Para activarlo:</b>
-1️⃣ Entrá a <i>Códigos</i> en la página
-2️⃣ Escribí: <b>WELCOME</b> 🎟️
+🚨Si realizas tu carga directa dejanos un comentario que diga “quiero mi bono del 30%”
 
-🎁 <b>BONO EXTRA SORPRESA:</b>
-Solo por abrir este chat, te damos un BONO EXTRA de regalo, exclusivo para vos.
-
-Para recibirlo ahora,
-👉 <a href="https://t.me/Winplayvip">Haz click aquí para jugar</a> 👈
-
-🥇 <b>Tip:</b> Guardá este chat.
-Acá te mandamos regalos sorpresa, bonos privados y beneficios especiales que no publicamos en ningún otro lado.
-`,
+✨ Unite a nuestro canal para recibir promos exclusivas todos los dias  
+👉 https://t.me/+Q6G0LB5WK1lhNmJh ✨`,
    { parse_mode: "HTML", disable_web_page_preview: true }
  );
 }); // 👈 ESTE CIERRE FALTABA
