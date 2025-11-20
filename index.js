@@ -108,14 +108,16 @@ bot.onText(/\/start/, (msg) => {
 
 bot.sendMessage(
   chatId,
-  `🎁 Bono exclusivo para vos 🎁
-Te regalamos un 30% en tu próxima carga. 
-Solo tenes que hablarnos a tg 👉https://t.me/m/eCMJ3EBWZjNh o realizar tu carga directa 👉https://winplay.space/home 
+  `🎁 <b>Bono exclusivo para vos</b> 🎁
+Te regalamos un <b>30%</b> en tu próxima carga. 
+Solo tenés que hablarnos a TG 👉 <a href="https://t.me/m/eCMJ3EBWZjNh">Haz click aquí</a> 
+o realizar tu carga directa 👉 <a href="https://winplay.space/home">Click para cargar</a>
 
-🚨Si realizas tu carga directa dejanos un comentario que diga “quiero mi bono del 30%”
+🚨 Si realizás tu carga directa, dejanos un comentario que diga:
+<b>"quiero mi bono del 30%"</b>
 
-✨ Unite a nuestro canal para recibir promos exclusivas todos los dias  
-👉 https://t.me/+Q6G0LB5WK1lhNmJh ✨`,
+✨ Unite a nuestro canal para recibir promos exclusivas todos los días  
+👉 <a href="https://t.me/+Q6G0LB5WK1lhNmJh">Unirme al canal</a> ✨`,
    { parse_mode: "HTML", disable_web_page_preview: true }
  );
 }); // 👈 ESTE CIERRE FALTABA
