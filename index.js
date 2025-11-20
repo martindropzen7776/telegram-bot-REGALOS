@@ -181,7 +181,23 @@ bot.on("message", (msg) => {
    🌐 EXPRESS PARA RENDER
 =============================== */
 
+/* ============================
+   🌐 EXPRESS PARA RENDER
+=============================== */
+
 const app = express();
+
+// 👇 NECESARIO para leer JSON de Callbell
+app.use(express.json());
+
+// 👉 NUEVO: WEBHOOK DE CALLBELL
+app.post("/callbell-webhook", (req, res) => {
+  console.log("📩 LLEGÓ UN WEBHOOK DE CALLBELL");
+  console.log(JSON.stringify(req.body, null, 2));
+
+  // después acá metés la lógica que quieras (guardar, responder, etc.)
+  res.sendStatus(200); // siempre responder 200 a Callbell
+});
 
 app.get("/", (req, res) => {
   res.send("Bot Telegram funcionando ✅ (sin integración Meta Pixel)");
@@ -193,3 +209,4 @@ app.listen(PORT, () => {
 });
 
 module.exports = {};
+
